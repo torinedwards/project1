@@ -457,6 +457,9 @@ h6 {
   left: 50%;
   transform: translatex(-50%);
 }
+.mpadleft {
+  padding-top: 20px;
+}
 }
 
 
