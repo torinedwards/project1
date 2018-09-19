@@ -11,13 +11,6 @@
   background-color: white;
   margin-left: 20px;
 }
-@media (min-width: 768px) {
-  .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-  }
-}
 .pad-right {
   padding-right: 80px;
 }
@@ -181,8 +174,7 @@ li a:hover {
 
 /*hero image */
 .hed {
-  height: 435px;
-  max-width: 1140px;
+  width: 100%;
   padding-bottom: 20px;
 }
 .backwards {
@@ -430,10 +422,8 @@ h6 {
 }
 
 
-/* movile version */
-
-/*image stuff*/
-@media (max-width:768px) {
+/* mobile version */
+@media only screen and (max-width:768px) {
   .r-week-img {
     width: 539px;
     padding-top: 80px;
@@ -457,7 +447,19 @@ h6 {
     padding: 5px 8px;
     cursor: pointer;
 }
+.description {
+  color: white;
+  margin-top: -84px;
+  margin-left: -230px;
 }
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+}
+
+
 @media only screen and (max-width: 320px) {
 img {
   width: 320px;
@@ -469,6 +471,11 @@ img {
   width: 30px;
   height: 30px;
   margin-right: 8px;
+}
+.tittle {
+  color: white;
+  margin-top:-183px;
+  padding-left: 50px;
 }
 .centerpiecesimg {
     height: 150px;
