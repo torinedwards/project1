@@ -21,9 +21,6 @@
 .pad-right {
   padding-right: 80px;
 }
-body {
-    padding-top: 90px;
-}
 
 .fit {
   max-height: 25px;
@@ -49,7 +46,7 @@ nav a:hover {
   background-color: #fff;
 }
 li a:hover {
-  background-color: #fff;
+  background-color: #F7F7F7;
 }
 /* alignment and spacing */
 .pad-both {
@@ -197,7 +194,7 @@ li a:hover {
   z-index: 10;
 }
 .hedr {
-  height: : 72px;
+  width: 100%;
 }
 
 
@@ -236,6 +233,9 @@ li a:hover {
   font-weight: 700;
   padding-top: 20px;
 }
+h3.white {
+  color: white;
+}
 .light-text {
   font-weight: 300;
 }
@@ -246,6 +246,10 @@ a.tittle {
 }
 a:hover {
   color: #014452;
+}
+a.stay:hover {
+  color: white;
+  text-decoration: none;
 }
 p {
   color: #666;
@@ -347,7 +351,7 @@ h1 {
   padding-bottom: 80px;
 }
 .lil-row-img {
-  max-width: 360px;
+    width: 100%;
 }
 
 h2 {
@@ -429,6 +433,31 @@ h6 {
 /* movile version */
 
 /*image stuff*/
+@media (max-width:768px) {
+  .r-week-img {
+    width: 539px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* button stuff */
+.bton4 {
+    border: 1px solid black;
+    background-color: white;
+    color: #666;
+    margin-top: -437px;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.bton3 {
+    border: 1px solid black;
+    background-color: white;
+    color: #666;
+    margin-top: -568px;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+}
 @media only screen and (max-width: 320px) {
 img {
   width: 320px;
